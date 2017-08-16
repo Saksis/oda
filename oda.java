@@ -1,18 +1,23 @@
 public class Oda {
 
-		int Rank;
+		int armySize;
+		String title;
 
 	public static void main(String[] args) {
 		Oda nobunaga = new Oda();
-	  nobunaga.go();
-
+	  nobunaga.getArmySize();
+    nobunaga.getTitle();
 	}
 
-	public void go() {
-    Rank = 5;
-		System.out.println(Rank);
+	public void getArmySize() {
+    armySize = 10000;
+		System.out.println("Army size of " + armySize + " men.");
 	}
 
+	public void getTitle() {
+		title = "Ruler";
+		System.out.println("Title of " + title + ".");
+	}
 
 
 }
