@@ -11,7 +11,7 @@ public class Oda {
 
 	public void getArmySize() {
     armySize = 10000;
-		System.out.println("Army size of " + armySize + " men.");
+		System.out.println("Army size of " + armySize + " able men.");
 	}
 
 	public void getTitle() {
